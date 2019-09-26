@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Character Form</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <section class="character">
+      <h1>Tell Me About Your Character</h1>
+      <form action="submission.html" method="POST">
+        <label for="charaname">What's Your Character's Name?</label>
+        <br>
+        <input id="charaname" name="charaname" type="text" minlength="1" maxlength="100" required>
+        <br>
+        <hr>
+      <label for="age">What Is Your Character's Age?</label>
+      <br>
+        <input type="number" name="age" value="age" required min="1">
+        <br>
+        <hr>
+        <label for="charagender">What's Your Character's Gender?</label>
+        <br>
+        <input type="radio" name="charagender" id="male" value="male">
+          <label for="male">Male</label>
+          <input type="radio" name="charagender" id="female" value="female">
+          <label for="female">Female</label>
+        <br>
+        <hr>
+        <label for="species">What Is Your Character's Race?</label>
+        <br>
+        <select id="species" name="species">
+          <option value="human">Human</option>
+          <option value="demon">Demon</option>
+          <option value="elf">Elf</option>
+          <option value="halfling">Hafling</option>
+          <option value="ogre">Ogre</option>
+          <option value="elemental">Elemental</option>
+          <option value="dragon">Dragon</option>
+        </select>
+        <br>
+        <hr>
+        <label for="features">What Does Your Character Look Like?</label>
+        <br>
+        <span>Hair Color:</span>
+        <textarea id="features" name="features" rows="1" cols="20" required></textarea>
+        <br>
+        <span>Eye Color:</span>
+        <textarea id="features" name="features" rows="1" cols="20" required></textarea>
+        <br>
+        <input type="submit" id="submission" value="submit">
+      </form>
+      </section>
+  </body>
+</html>

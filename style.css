@@ -1,0 +1,42 @@
+body {
+  background-color: #59CD90;
+  color: #3FA7D6;
+  font-family: Arial;
+  text-align: center;
+}
+
+form {
+  line-height: 25px;
+  padding: 7%;
+
+}
+
+h1 {
+  font-family: Arial;
+  font-size: 4em;
+  padding-top: 2%;
+}
+
+h2 {
+  font-family: Arial;
+  color: #fff;
+  text-align: center;
+}
+
+hr {
+  width: 7%;
+}
+
+.character {
+  width: 70%;
+  min-width: 40%;
+  margin: auto;
+  display: block;
+  background-color: white;
+  border-radius: 30px;
+  height:30%;
+}
+
+.charagender {
+  margin-right: 25px;
+}
